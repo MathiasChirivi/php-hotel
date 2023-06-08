@@ -59,9 +59,20 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="bg-secondary">
         <div class="container">
             <div class="col-12">
+                <h4>Desideri filtrare per Parcheggio?</h4>
+                <div class="d-flex mb-3">
+                    <div class="form-check mx-3">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1"> Si </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">No</label>
+                    </div>
+                </div>
             <table class="table table-hover">
                 <thead>
                     <tr>
